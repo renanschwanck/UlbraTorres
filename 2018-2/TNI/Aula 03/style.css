@@ -1,0 +1,105 @@
+img {
+border-radius: 90px;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+h1{
+	
+
+
+
+}
+		.tudo{ 
+			width: 55%;
+			margin: 0 auto;
+			text-align: center;
+			padding: 30px 30px 30px 30px;
+			border: solid 0px;
+		}			
+		.linha{
+			clear: both;
+		}
+					
+		.esquerda {			 
+			width: 30%;
+			height: 100px;
+			float: left; 
+			background-color: ; 
+			color: #fffff;
+			text-align: center;;
+
+		}
+		.direita { 
+			width: 70%;
+			float: left; 
+			text-align: left;
+		}
+		.unica1{
+			clear: both; /* garante a posição abaixo da divs superiores (esquerda e direita),  */
+			background-color: #79ff4d;
+			height: 100%;
+			width: 100%;
+		}
+		.unica2{
+			clear: both; /* garante a posição abaixo da divs superiores (esquerda e direita),  */
+			height: 100%;
+			width: 100%;
+			text-align: left;
+		}
+
+		.esquerda2 {			 
+			width: 50%;
+			float: left; 
+			text-align: left;
+
+			
+
+		}
+		.direita2 { 
+			width: 50%;
+			float: left; 
+			text-align: left;
+		}
+
+
+		.centro {
+
+			width: 50%;
+		}
+
+		
+		</style>
+
+		#coluna1{
+			width: 45%;
+			float: left;
+			text-align: left;
+			margin-left: 2%;
+			margin-right: 2%;
+		}
+
+		#coluna2{
+			float: left;
+			background-color: #80d44f;
+			width: 1px;
+
+
+
+		}
+
+		#coluna3{
+
+		}
+
+		.itens{
+			float: left;
+		}
+
+		.circle{
+			height: 10px;
+			width: 10px;
+
+		}

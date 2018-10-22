@@ -1,0 +1,128 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: sans-serif;
+}	
+
+caption{
+	text-align: left;
+}
+
+img{
+	height: 38px;
+	width: 38px;
+}
+
+h1{
+	color: white;
+	background-color: #00CD00;
+	border-radius: 0px;
+	height: 50px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px; 
+}
+
+p{
+	font-weight: bold;
+	font-size: 20px; 
+}
+
+th, td{
+	padding: 1px;
+	border: 1px solid;
+	height: 50px;
+	width: 50px;
+}
+
+table{
+	width: 100%;
+}
+
+caption{
+	text-align: left;
+
+}
+
+.root{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.separacao{
+	width: 10%;
+	float: left;
+}
+
+.table1v2{
+	width: 70%;
+	float: left;
+}
+
+.table2v2{
+	width:30%;
+	float: left;
+	text-align: center;
+}
+
+.table3{
+	width: 90%;
+	float: left;
+	text-align: left;
+}
+
+.coluna1{
+	min-width: 30px;
+	text-align: left;
+}
+
+.center{
+	text-align: center;
+}
+
+.circle1{
+	height: 7px;
+	width: 7px;
+	background-color: #00CD00;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+}
+
+.circle2{
+	height: 7px;
+	width: 7px;
+	background-color: #CD0000;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+}
+
+.circle3{
+	height: 7px;
+	width: 7px;
+	background-color: #CDCDB4;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+}
+
+.image{
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 100%;
+
+}
+
+.fundo{
+	background-color: #EEEED1;
+}
+
+.negrito{
+	font-weight: bold;
+	background-color: #EEEED1;
+}

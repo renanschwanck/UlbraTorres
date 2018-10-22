@@ -1,0 +1,173 @@
+<html>
+<head>
+    <title>Formulário</title>
+    <meta name="descricao" content="Formulários em HTML">
+    <meta http-equiv="ontent-type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css"/>
+</head>
+
+<body>
+    
+    <h1>Rose Hotel</h1> <br />
+    <p>O Rose Hotel é um hotel 4 estrelas localizado em Tralee, a 1,5 km do centro da cidade, com vista das Montanhas Slieve Mish. Estacionamento gratuito e Wi-Fi também estão disponíveis para os hóspedes.</p> <br />
+<form action="Script_do_formulario" method="post">
+
+    <!-- Dados pessoais -->
+    <fieldset class="field1">
+        <legend>Dados Pessoais</legend>
+
+        <label for="nome">Nome: </label>
+        <input type="text" name="email"> <br /><br />
+
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome"> <br /><br />
+
+        <label for="sobrenome">Masculino: </label>
+        <input type="radio" value="male" name="gender"> <br /><br />
+        <label for="sobrenome">Feminino: </label>
+        <input type="radio" value="female" name="gender"> <br /><br />
+
+        <label>Nascimento: </label>
+        <input type="text" name="dia" size="2" maxlength="2" value="dd">  
+        <input type="text" name="mes" size="2" maxlength="2" value="mm">  
+        <input type="text" name="ano" size="4" maxlength="4" value="aaaa">  <br /><br />
+
+        <label for="rg">RG: </label>
+        <input type="text" name="rg" size="13" maxlength="13"> <br /><br />
+
+        <label>CPF: </label>
+        <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2"> <br />
+
+    </fieldset> 
+
+    
+
+    <!-- ENDEREÇO-->
+
+    <fieldset class="field1">
+
+        <legend>Dados de Endereço</legend>
+
+        <label for="rua">Rua: </label> <br />
+        <input type="text" name="rua" size="4"> <br />
+
+        <label for="numero">Número: </label> <br />
+        <input type="text" name="numero" size="4"> <br />
+
+        <label for="bairro">Bairro: </label> <br />
+        <input type="text" name="bairro"> <br /><br />
+
+        <label for="estado">Estado:</label>
+        <select name="estado">
+            <option value="ac">Acre</option>
+            <option value="al">Alagoas</option>
+            <option value="ap">Amapá</option>
+            <option value="am">Amazonas</option>
+            <option value="ba">Bahia</option>
+            <option value="ce">Ceará</option>
+            <option value="df">Distrito Federal</option>
+            <option value="es">Espírito Santo</option>
+            <option value="go">Goiás</option>
+            <option value="ma">Maranhão</option>
+            <option value="mt">Mato Grosso</option>
+            <option value="ms">Mato Grosso do Sul</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="pa">Pará</option>
+            <option value="pb">Paraíba</option>
+            <option value="pr">Paraná</option>
+            <option value="pe">Pernambuco</option>
+            <option value="pi">Piauí</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="rn">Rio Grande do Norte</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="ro">Rondônia</option>
+            <option value="rr">Roraima</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="sp">São Paulo</option>
+            <option value="se">Sergipe</option>
+            <option value="to">Tocantins</option>
+
+        </select> <br /><br />
+
+            <label for="cidade">Cidade: </label>
+            <input type="text" name="cidade"> <br /><br />
+
+            <label for="cep">CEP: </label>
+            <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3"> <br />
+
+    </fieldset class="field1">
+    
+
+    <!-- Dados de Login -->
+
+    <fieldset class="field1">
+
+        <legend>Dados do hotel</legend>
+
+        <label for="email">E-mail: </label>
+        <input type="text" name="email"> <br />
+
+        <form action="/action_page.php">
+            Data de check-in:
+            <input type="month" name="bdaymonth">
+            <input type="submit">
+          </form>
+
+          <form action="/action_page.php">
+            Data de check-out:
+            <input type="month" name="bdaymonth">
+            <input type="submit">
+          </form>
+
+        <label for="sobrenome">Os dados estão corretos?: </label>
+        <input type="radio" value="Sim" name="gender">Sim: 
+        <label for="sobrenome">Não: </label>
+        <input type="radio" value="female" name="gender"> <br /> <br />
+
+
+        Escolha o quarto: <br /> <br />
+         <input type="checkbox" value="c_op1" name="check[]">Suíte Master <br />
+         <input type="checkbox" value="c_op1" name="check[]">Suíte <br />
+         <input type="checkbox" value="c_op1" name="check[]">Cobertura <br />
+
+    </fieldset>
+
+    <br />
+
+    <input type="submit" class="enviar">
+    <input type="reset" value="Limpar" class="limpar">
+</form>
+
+
+
+
+
+
+
+
+
+</fieldset>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

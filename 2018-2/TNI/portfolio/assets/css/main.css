@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim|Strait|Vollkorn+SC');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(10, 19, 39);
+}
+
+
+h1{
+    font-family: 'Megrim', cursive;
+    text-align: left;
+    font-size: 6.0rem;
+    line-height: 6.0rem;
+    height: px;
+    letter-spacing: 0.2rem;
+    color: rgb(255, 196, 0);
+    text-align: center;
+    margin-left: 860px;
+    margin-bottom:;
+    text-shadow: 2.5px 2.5px 10px rgb(5, 4, 1);
+    opacity: 1;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-right: 700px;
+    color: rgb(255, 196, 0);
+    text-shadow: 4.5px 4.5px 10px rgb(5, 4, 1);
+    opacity: 1;
+    
+}
+
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+    margin-top: 22px;
+    padding: 15px 15px 15px 30px;
+    float: right;
+    width: 10%;
+    color: rgb(0, 204, 255);
+}
+
+.root
+
+.conteudo-inicio{
+    background-image: url("/portfolio/assets/img/fundo.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+    background-color: white;
+    height: 860px;
+    width: 100%;
+    max-height: 700px;
+    margin: 0 auto;
+    padding: 0 auto;
+    opacity: 1;
+}
+
+
+
+.footer {
+    width: 100%;
+    background-color: rgb(10, 19, 39);
+    height: 95px;
+    padding: 20px;
+    color: #00DAFB;
+    
+}
+.icones {
+    margin-right: 30px;
+    margin-top: auto;
+    float: right;
+    padding-bottom: 2px 2px 2px 2px;
+    border: 0 auto; 
+    width: 20px;
+}
+
+.copy{
+    margin-left: 50px;
+    margin-top: auto;
+}
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; /
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+input[type=Enviar] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=enviar]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
+.row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+ 
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+ 
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  .mySlides {
+    display: none;
+  }
+  
+ 
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+ 
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
