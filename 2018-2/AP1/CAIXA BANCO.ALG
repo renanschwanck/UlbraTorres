@@ -1,7 +1,7 @@
 Algoritmo "caixa banco"
 
 Var
-saque, sobra, reais100, reais50, reais20, reais10, reais5, reais1: inteiro
+teste, saque, sobra, reais100, reais50, reais20, reais10, reais5, reais1: inteiro
 
 Inicio
 
